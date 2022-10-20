@@ -1,1 +1,107 @@
-<p>test</p>
+<!DOCTYPE html>
+<head>
+    <title>Verdens tre høyeste skyskrapere</title>
+
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;            
+        }
+        table {
+            margin-left:auto;
+            margin-right:auto;
+            border: 10px solid lightblue;
+            border: 10px solid gray;
+            padding: 10px;
+        }
+        th {
+            background-color: #3f4259;
+            color: white;
+        }
+        h1 {
+            width: 561px;
+
+            display: flex;
+            background-color: darkblue;
+            color: white;
+            padding: 2rem 3rem 2rem 1rem;  
+            margin-left:auto;
+            margin-right:auto;          
+            border: 10px solid gray;
+        }
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+        img {
+            width: 209px;
+            height: 337px;
+            object-fit: cover;
+            border-bottom: 10px solid gray;
+            border-top: 10px solid gray;
+        }
+        article {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            justify-content: center;
+        }
+        body {
+            display: grid;
+            grid-template-rows: 135px;
+        }
+        table {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verdens tre høyeste skyskrapere</h1>
+    </header>
+    <main>
+    <section>
+        <table>
+            <thead>
+                <th>Skyskrapere</th>
+                <th>Høyde</th>
+                <th>By</th>
+                <th>Land</th>
+                <th>Byggeår</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Burj Khalifa</td>
+                <td>828 m</td>
+                <td>Dubai</td>
+                <td>De forente arabiske emirater</td>
+                <td>2009</td>
+            </tr>
+            
+            <tr>
+                <td>Shanghai Tower</td>
+                <td>632 m</td>
+                <td>Shanghai</td>
+                <td>Kina</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Makkah Royal Clock Tower</td>
+                <td>601 m</td>
+                <td>Mekka</td>
+                <td>Saudi-Arabia</td>
+                <td>2011</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <article>
+        <span><img src="burj_stor.jpg" style="border-left: 10px solid gray;"></span>
+        <span><img src="Makkah_stor.jpg"></span>
+        <span><img src="Shanghai_stor.jpg" style="border-right: 10px solid gray;"></span>
+    </article>
+    </main>
+</body>
